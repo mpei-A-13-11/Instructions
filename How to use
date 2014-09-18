@@ -1,0 +1,29 @@
+Instructions
+============
+
+READ
+
+Есть варианты управления из консоли и из приложения, которое можно найти гд-то на гитхабе.
+Ниже вариант управления репозиторием из консоли:
+
+1. Создаешь реп на гитхабе
+2. В консоли говоришь:
+git clone https://github.com/%username%/test.git  //когда открываешь нужный репозиторий: справа, внизу всегда есть ссылка
+3. Pаботаешь с файлами в папке
+4.
+     а) git add *
+     б) git commit -am "First commit"
+     в) git push origin master      //зальет в основную ветку
+5. Логин/пароль и файлы на гитхабе :)
+
+мой пример работы:
+
+mdeb@debian:~$ cd Inst/
+mdeb@debian:~/Inst$ git clone https://github.com/mpei-A-13-11/Data-Base.git
+mdeb@debian:~/Inst$ cd Data-Base/
+work
+mdeb@debian:~/Inst/Data-Base$ git add *
+mdeb@debian:~/Inst/Data-Base$ git commit -am "add *.zip and unzip"
+mdeb@debian:~/Inst/Data-Base$ git push origin master
+Username for 'https://github.com': marimysh@gmail.com
+Password for 'https://marimysh@gmail.com@github.com': 
