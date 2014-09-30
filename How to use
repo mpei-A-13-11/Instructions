@@ -32,4 +32,4 @@ mdeb@debian:~/Inst/Data-Base$ git push origin master
 Username for 'https://github.com': marimysh@gmail.com
 Password for 'https://marimysh@gmail.com@github.com': 
 
-Если тут кто-то как-то изменил репозиторий, и ты хочешь чтобы у тебя на компьютере тоже обновилась версия. То нужно находять в папке выполнить команду: git update
+Если тут кто-то как-то изменил репозиторий, и ты хочешь чтобы у тебя на компьютере тоже обновилась версия. То нужно находять в папке выполнить команду: git pull origin
